@@ -1,7 +1,3 @@
-/* Vincula Bootstrap desde un archivo CDN o localmente aquí */
-/* Si ya has vinculado Bootstrap, puedes omitir esta parte */
-
-/* Cambia la fuente a "Poppins" para todo el proyecto */
 body,
 h1,
 h2,
@@ -19,16 +15,7 @@ h6,
   font-family: 'Poppins', sans-serif !important;
 }
 
-/* Cambia la fuente de los elementos específicos según sea necesario */
-/* Ejemplo: Cambiar la fuente de los párrafos con la clase "texto-personalizado" */
+
 .texto-personalizado {
   font-family: 'Poppins', sans-serif !important;
 }
-
-/* Otros estilos de fuentes personalizados según sea necesario */
-/* Agrega más estilos de fuentes personalizados aquí */
-
-/* Asegúrate de cargar la fuente Poppins desde Google Fonts o tu fuente preferida en tu HTML */
-
-/* Por ejemplo, puedes agregar esto en el <head> de tu HTML para cargar la fuente Poppins */
-/* <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"> */
