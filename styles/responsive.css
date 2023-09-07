@@ -1,9 +1,3 @@
-/* Estilos generales para pantallas grandes */
-/* Puedes incluir aquí tus estilos CSS existentes */
-
-/* Estilos para encabezado y navegación */
-  
-  /* Estilos para imágenes y secciones */
   body > article {
     display: flex;
     flex-wrap: wrap;
@@ -19,7 +13,7 @@
     box-shadow: 4px -4px 8px rgba(0, 0, 0, 0.4);
   }
   
-  /* Estilos para contenido dentro de figuras y secciones */
+  
   section > div {
     display: flex;
     flex-direction: column;
@@ -48,38 +42,37 @@
     margin-bottom: 5%;
   }
   
-  /* Media Query para pantallas pequeñas (menos de 700px) */
+ 
   @media screen and (max-width: 700px) {
-    /* Modificar los estilos para que se adapten a pantallas pequeñas aquí */
   
     body > article {
-      flex-direction: column; /* Cambiar a diseño de columna */
+      flex-direction: column; 
     }
   
     figure,
     section {
-      width: 100%; /* Ocupar todo el ancho en pantallas pequeñas */
-      margin: 0 auto 10vh auto; /* Centrar en todas las direcciones */
-      position: static; /* Eliminar el posicionamiento pegajoso */
-      box-shadow: none; /* Eliminar la sombra */
+      width: 100%;
+      margin: 0 auto 10vh auto; 
+      position: static; 
+      box-shadow: none;
     }
   
     section > div {
-      align-items: center; /* Centrar elementos en la parte superior */
+      align-items: center; 
       padding: 1rem;
     }
   
     h1,
     h2 {
-      margin: 10% 0; /* Cambiar los márgenes en los títulos */
-      font-size: calc(3vmin + 2vmax); /* Cambiar el tamaño de fuente en los títulos */
-      text-align: center; /* Centrar el texto */
+      margin: 10% 0; 
+      font-size: calc(3vmin + 2vmax); 
+      text-align: center; 
     }
   
     p {
-      text-align: left; /* Alinear el texto a la izquierda */
-      margin-bottom: 10px; /* Cambiar el margen inferior en los párrafos */
-      font-size: calc(1.25vmin + 1.25vmax); /* Cambiar el tamaño de fuente en los párrafos */
+      text-align: left; 
+      margin-bottom: 10px; 
+      font-size: calc(1.25vmin + 1.25vmax); 
     }
   }
   
