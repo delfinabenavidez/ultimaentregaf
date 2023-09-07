@@ -1,0 +1,85 @@
+/* Estilos generales para pantallas grandes */
+/* Puedes incluir aquí tus estilos CSS existentes */
+
+/* Estilos para encabezado y navegación */
+  
+  /* Estilos para imágenes y secciones */
+  body > article {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  figure,
+  section {
+    width: calc(50% + 1px);
+    height: 100vh;
+    margin: 0 auto 10vh 0;
+    position: sticky;
+    top: 0;
+    box-shadow: 4px -4px 8px rgba(0, 0, 0, 0.4);
+  }
+  
+  /* Estilos para contenido dentro de figuras y secciones */
+  section > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    padding: 1rem;
+  }
+  
+  h1,
+  h2 {
+    margin: 15% 0 auto;
+    font-size: calc(5vmin + 3vmax);
+    text-align: center;
+    font-weight: 700;
+    line-height: 1;
+    word-spacing: 0.5rem;
+  }
+  
+  p {
+    text-align: right;
+    width: 100%;
+    font-family: "Cormorant", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: calc(1.5vmin + 1.75vmax);
+    margin-bottom: 5%;
+  }
+  
+  /* Media Query para pantallas pequeñas (menos de 700px) */
+  @media screen and (max-width: 700px) {
+    /* Modificar los estilos para que se adapten a pantallas pequeñas aquí */
+  
+    body > article {
+      flex-direction: column; /* Cambiar a diseño de columna */
+    }
+  
+    figure,
+    section {
+      width: 100%; /* Ocupar todo el ancho en pantallas pequeñas */
+      margin: 0 auto 10vh auto; /* Centrar en todas las direcciones */
+      position: static; /* Eliminar el posicionamiento pegajoso */
+      box-shadow: none; /* Eliminar la sombra */
+    }
+  
+    section > div {
+      align-items: center; /* Centrar elementos en la parte superior */
+      padding: 1rem;
+    }
+  
+    h1,
+    h2 {
+      margin: 10% 0; /* Cambiar los márgenes en los títulos */
+      font-size: calc(3vmin + 2vmax); /* Cambiar el tamaño de fuente en los títulos */
+      text-align: center; /* Centrar el texto */
+    }
+  
+    p {
+      text-align: left; /* Alinear el texto a la izquierda */
+      margin-bottom: 10px; /* Cambiar el margen inferior en los párrafos */
+      font-size: calc(1.25vmin + 1.25vmax); /* Cambiar el tamaño de fuente en los párrafos */
+    }
+  }
+  
