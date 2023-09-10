@@ -163,7 +163,7 @@ header.group {
   display: flex;
   justify-content: center; /* Alinea el contenido al final */
   background-color: #000000;
-  padding: 160px 0;
+  padding: 60px 0;
 }
 
 
@@ -336,3 +336,28 @@ img {
   font-family: 'Courier New', Courier, monospace;
   
 }
+
+/* Estilos generales para el footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact-info,
+.social-media {
+  flex: 1;
+}
+
+/* Estilos para los íconos de redes sociales (Font Awesome) */
+
+/* Puedes ajustar estos estilos según tus preferencias */
